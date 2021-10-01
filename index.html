@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Boxing Timer Brainstorm</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <meta name="description" content="Plans to make a boxing timer mobile device application" />
+        <link rel="icon" type="image/jpg" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <section>
+                <h1>Boxing Timer Brainstorm</h1>
+                <h2>These are the meeting minutes to the first meeting where we introduce and brainstorm ideas. <br>There will be more meetings to come.</h2>
+                <h3>Date Made: 10/1/21</h3>
+            </section>
+            <nav>
+                <a href="index.html">Timer Examples</a>
+                <a href="index.html">App Tutorials</a>
+                <a href="index.html">Resources</a>
+            </nav>
+        </header>
+        <hr />
+        <main>
+            <h3>Attendence: </h3>
+            <ul>
+                <li>TJ Alo</li>
+                <li>Steve Yuan</li>
+                <li>John Mauricio</li>
+                <li>Elijah Roma</li>
+            </ul>
+            <h3>Last Meeting:</h3>
+            <p>We had an informal meeting before this talking about the general idea of a boxing timer with little detail.</p>
+            <hr />
+            <h2> Today's Agenda:</h2>
+            <span>
+                <ul>
+                    <li>What is a boxing timer?</li>
+                    <li>What should a good boxing timer have?</li>
+                    <li>How should we implement the app?</li>
+                </ul>
+            </span>
+            
+            <div>
+                <h3> What is a boxing timer?</h3>
+                <p> A boxing timer is a timer that sets a round time, how many
+                    rounds, and breaks between rounds <strong>without</strong> the user having to
+                    manually set the clock between rounds.
+                </p>
+            </div>
+            
+            <div>
+                <h3> What should a good boxing timer have?</h3>
+                <p> A good boxing timer should have a <b>simple</b> to use interface where
+                    setting the rounds, round time, and break should be easy to set up.
+                    <i>This timer should be as simple as possible.</i>
+                </p>
+            </div>
+
+            <div>
+                <h3> How should we implement the app?</h3>
+                <ol>
+                    <li>Learn the tools for app development</li>
+                    <li>Use the tools to implement the core features</li>
+                    <li>Make the app look <em>simple and presentable.</em></li>
+                </ol>
+            </div>
+
+            <hr />
+            <section>
+                <h2>Videos, Diagrams, and Audio presented in meeting:</h2>
+                <h3>Example app design?</h3>
+                <img src="1200x630wa.png"></img>
+            </section>
+            <section>
+                <h2>Functionality in use</h2>
+                <video width="1280" height="720" controls>
+                    <source src="3 Round Boxing Match  Training Timer - 3 x 3min with 1 min Breaks.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section>
+                <h2>Sound of the bell?</h2>
+                <audio controls src="Boxing Bell Sound FX.mp3"></audio>
+            </section>
+            <details>
+                <summary>
+                    Bell sound
+                </summary>
+                <p>We can always try to find another bell sound or record it but I found this online</p>
+            </details>
+
+            <h2>If there are any questions or concerns, fill form below:</h2>
+            <form>
+                <fieldset>
+                    <label for="name">First and Last Name</label>
+                    <input type="text" name="name">
+                    <br />
+                    <label for="avail">Available for next meeting</label>
+                    <input type="checkbox" name="avail">
+                    <br />
+                    <label for="teams">Which team are you a part of?</label>
+                    <input type="radio" name="team" value="Front-end">
+                    <label for="front">Front end</label>
+                    <input type="radio" name="team" value="Back-end">
+                    <label for="back">Back end</label>
+                    <input type="radio" name="team" value="PR">
+                    <label for="pr">PR</label>
+                    <br />
+                    <label for="question">Question or Concern:</label>
+                    <textarea name="question" rows="10" cols="50"></textarea>
+                    <br />
+                    <label for="device"> Device you want app to be on</label>
+                    <input list="devices" name="device" id="device">
+                    <datalist id="devices">
+                        <option>iPhone</option>
+                        <option>Android</option>
+                        <option>PC</option>
+                        <option>Mac</option>
+                    </datalist>
+                    <br />
+                    <label for="grade-select">Choose your college grade year</label>
+                    <select name="grades" id="grade-select">
+                        <option>1st Year</option>
+                        <option>2nd Year</option>
+                        <option>3rd Year</option>
+                        <option>4th Year</option>
+                        <option>Other</option>
+                    </select>
+                    <button type="button">Submit</button>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>Copyright TJ</footer>
+    </body>
+</html>
