@@ -33,21 +33,21 @@
             <p>We had an informal meeting before this talking about the general idea of a boxing timer with little detail.</p>
             <hr />
             <h2> Today's Agenda:</h2>
-            <span>
+            
                 <ul>
                     <li>What is a boxing timer?</li>
                     <li>What should a good boxing timer have?</li>
                     <li>How should we implement the app?</li>
                 </ul>
-            </span>
             
-            <div>
+            
+            <span>
                 <h3> What is a boxing timer?</h3>
                 <p> A boxing timer is a timer that sets a round time, how many
                     rounds, and breaks between rounds <strong>without</strong> the user having to
                     manually set the clock between rounds.
                 </p>
-            </div>
+            </span>
             
             <div>
                 <h3> What should a good boxing timer have?</h3>
@@ -70,17 +70,17 @@
             <section>
                 <h2>Videos, Diagrams, and Audio presented in meeting:</h2>
                 <h3>Example app design?</h3>
-                <img src="1200x630wa.png"></img>
+                <img src="1200x630wa.png" alt="potential app design">
             </section>
             <section>
                 <h2>Functionality in use</h2>
                 <video width="1280" height="720" controls>
-                    <source src="3 Round Boxing Match  Training Timer - 3 x 3min with 1 min Breaks.mp4" type="video/mp4">
+                    <source src="BoxingTimerVideo.mp4" type="video/mp4">
                 </video>
             </section>
             <section>
                 <h2>Sound of the bell?</h2>
-                <audio controls src="Boxing Bell Sound FX.mp3"></audio>
+                <audio controls src="BellSound.mp3"></audio>
             </section>
             <details>
                 <summary>
@@ -93,21 +93,24 @@
             <form>
                 <fieldset>
                     <label for="name">First and Last Name</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" id="name">
                     <br />
                     <label for="avail">Available for next meeting</label>
-                    <input type="checkbox" name="avail">
+                    <input type="checkbox" name="avail" id="avail">
                     <br />
-                    <label for="teams">Which team are you a part of?</label>
-                    <input type="radio" name="team" value="Front-end">
+                    <p>Which team are you a part of?</p>
+                    
                     <label for="front">Front end</label>
-                    <input type="radio" name="team" value="Back-end">
+                    <input type="radio" name="team" value="Front-end" id="front">
+                    
                     <label for="back">Back end</label>
-                    <input type="radio" name="team" value="PR">
+                    <input type="radio" name="team" value="Back-end" id="back">
+                    
                     <label for="pr">PR</label>
+                    <input type="radio" name="team" value="PR" id="pr">
                     <br />
                     <label for="question">Question or Concern:</label>
-                    <textarea name="question" rows="10" cols="50"></textarea>
+                    <textarea name="question" rows="10" cols="50" id="question"></textarea>
                     <br />
                     <label for="device"> Device you want app to be on</label>
                     <input list="devices" name="device" id="device">
