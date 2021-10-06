@@ -1,0 +1,33 @@
+/* This is a comment and the start of my CSS stylesheet */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#title{
+    color: Red;
+    font-size: 8ex;
+}
+#date{
+    color: rgb(165, 42, 42);
+}
+#attendence{
+    color: rgb(40, 129, 202);
+    font-size: 4ch;
+}
+.questions{
+    background-color: #FAEBD7;
+}
+h1{
+    font-size: 1cm;
+}
+li[class]{
+    font-size: 5mm;    
+}
+a:hover{
+    font-size: 25Q;
+}
+nav{
+    font-size: 1em;
+}
+h1, #title{
+    text-align: center;
+}
