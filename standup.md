@@ -1,6 +1,6 @@
 **Standup Template**
-Name:
-Time and Date:
-Today's Tasks:
-Concerns:
+Name: <br />
+Time and Date: <br />
+Today's Tasks: <br />
+Concerns: <br />
 Mood:
