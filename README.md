@@ -1,1 +1,1 @@
-https://github.com/THEODOREALOUCSD/fa21-cse110-lab3
+https://theodorealoucsd.github.io/fa21-cse110-lab3/
